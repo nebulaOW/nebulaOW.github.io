@@ -2,10 +2,13 @@
 title: "Mr. Destructo Map Data"
 date: 2021-01-15T09:49:30-06:00
 categories:
-  - blog
+  - Tools
 tags:
-  - Jekyll
-  - update
+  - Map Data
+  - Mr Destructo
+  - Reaper
+  - Bot
+  - Break fences
 ---
 
 # Map Data for MrDestructo
