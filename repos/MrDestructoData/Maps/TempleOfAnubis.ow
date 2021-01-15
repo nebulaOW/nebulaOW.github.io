@@ -1,0 +1,100 @@
+variables
+{
+	global:
+		105: MrDestructoVector
+		106: MrDestructo
+		107: i
+}
+
+subroutines
+{
+	105: MrDestructo
+}
+
+rule("Mr Destructo Data")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Global.i = 0;
+		Global.MrDestructoVector = Array(0, Vector(-17.488, 4.742, 109.776), Vector(-16.166, 4.724, 107.499), Vector(-16.197, 4.733,
+			108.076), Vector(-14.346, 4.738, 107.072), Vector(-3.710, 4.700, 116.881), Vector(-12.153, 4.021, 120.009), Vector(-29.346,
+			3.637, 111.124), Vector(-27.797, 3.637, 109.359), Vector(-33.362, 3.637, 104.758), Vector(11.723, 4.453, 114.146), Vector(
+			10.930, 4.419, 114.850), Vector(10.386, 4.413, 116.686), Vector(13.633, 4.432, 115.351), Vector(17.617, 4.413, 117.278),
+			Vector(18.824, 4.438, 117.120), Vector(20.020, 4.616, 117.168), Vector(21.221, 4.846, 116.989), Vector(20.096, 4.600, 109.634),
+			Vector(18.365, 4.411, 109.310), Vector(12.507, 4.403, 109.857), Vector(11.149, 4.413, 110.202), Vector(17.011, 2.399, 106.064),
+			Vector(17.181, 2.399, 105.374), Vector(18.849, 2.399, 103.130), Vector(18.862, 2.399, 102.159), Vector(18.641, 2.399, 98.598),
+			Vector(18.276, 2.399, 96.731), Vector(17.204, 2.399, 94.818), Vector(17.638, 2.400, 92.931), Vector(17.829, 2.400, 91.708),
+			Vector(17.891, 2.399, 90.262), Vector(17.230, 2.399, 89.290), Vector(16.134, 2.399, 88.394), Vector(12.796, 0.600, 93.916),
+			Vector(12.863, 0.500, 95.537), Vector(12.824, 0.500, 97.073), Vector(14.761, 0.500, 97.474), Vector(14.368, 0.500, 99.015),
+			Vector(12.691, 0.500, 99.539), Vector(5.990, 0.658, 97.419), Vector(6.348, 0.628, 96.342), Vector(6.308, 0.634, 95.280),
+			Vector(2.548, 0.695, 94.546), Vector(6.450, 3.179, 83.688), Vector(6.578, 3.827, 81.704), Vector(-11.735, 4.690, 89.669),
+			Vector(-13.103, 4.686, 87.838), Vector(-24.829, 4.663, 96.300), Vector(-26.322, 7, 99.584), Vector(-26.632, 7, 100.294),
+			Vector(-21.704, 7, 100.309), Vector(-21.027, 7.001, 99.040), Vector(-21.549, 8, 92.846), Vector(-15.044, 4.643, 83.569),
+			Vector(-17.033, 4.756, 84.474), Vector(-7.120, 6.769, 92.341), Vector(-7.120, 6.769, 92.341), Vector(-0.522, 7.895, 90.993),
+			Vector(-0.522, 7.895, 90.993), Vector(1.564, 3.550, 69.285), Vector(1.578, 3.548, 68.500), Vector(4.302, 3.540, 72.885),
+			Vector(1.504, 5.507, 66.656), Vector(1.504, 5.507, 66.656), Vector(-1.403, 4.598, 61.738), Vector(-1.403, 4.598, 61.738),
+			Vector(2.322, 3.515, 59.832), Vector(2.322, 3.515, 59.832), Vector(5.088, 3.607, 69.073), Vector(5.255, 3.607, 66.272), Vector(
+			8.081, 3.607, 69.553), Vector(-4.491, 3.991, 72.386), Vector(-27.623, 1.507, 74.780), Vector(-28.956, 1.499, 74.829), Vector(
+			-34.011, 1.472, 66.422), Vector(-33.648, 1.471, 65.260), Vector(-29.606, 1.470, 58.613), Vector(-29.923, 1.463, 56.290),
+			Vector(-11.082, 1.485, 55.470), Vector(-9.682, 1.485, 56.002), Vector(-5.621, 1.678, 58.686), Vector(6.105, 4.500, 53.811),
+			Vector(5.151, 4.500, 53.390), Vector(3.527, 4.500, 52.722), Vector(1.499, 4.500, 53.646), Vector(2.163, 4.500, 52.836), Vector(
+			-1.697, 5.500, 57.842), Vector(-8.048, 5.563, 57.475), Vector(-24.008, 1.510, 67.316), Vector(-25.660, 1.521, 66.625), Vector(
+			-25.894, 1.510, 65.578), Vector(-25.561, 1.510, 64.204), Vector(-25.319, 1.510, 63.172), Vector(-23.634, 1.512, 62.231),
+			Vector(-21.161, 1.512, 59.180), Vector(-21.239, 1.544, 46.049), Vector(-23.599, 1.528, 52.289), Vector(-23.229, 1.412, 50.907),
+			Vector(-30.279, 1.992, 50.147), Vector(-30.948, 1.992, 50.975), Vector(-31.813, 1.992, 52.098), Vector(-33.938, 1.989, 53.870),
+			Vector(-42.518, 1.553, 52.245), Vector(-41.729, 1.565, 50.799), Vector(-34.734, 5.500, 59.178), Vector(-34.177, 5.500, 59.819),
+			Vector(-48.655, 1.503, 51.416), Vector(-54.241, 1.553, 48.828), Vector(-55.453, 1.542, 49.648), Vector(-55.665, 1.509, 42.341),
+			Vector(-47.472, 5.509, 20.720), Vector(-46.604, 5.509, 19.671), Vector(-36.869, 5.009, 11.028), Vector(-37.608, 5.009, 8.926),
+			Vector(-40.142, 9.509, 17.288), Vector(-40.261, 9.509, 18.813), Vector(-47.236, 9.509, 27.595), Vector(-46.195, 9.509, 28.299),
+			Vector(-45.011, 9.509, 29.075), Vector(-43.531, 9.509, 30.045), Vector(-54.045, 9.509, 33.518), Vector(-60.363, 6.509, 45.290),
+			Vector(-25.093, 1.335, 21.851), Vector(-24.006, 1.299, 22.460), Vector(-20.313, 0.643, 26.117), Vector(-11.030, 0.792, 29.076),
+			Vector(-8.774, 0.850, 29.708), Vector(-21.858, 0.510, 17.376), Vector(-22.207, 0.510, 16.829), Vector(-24.563, 0.510, 13.516),
+			Vector(-23.553, 4.509, 35.916), Vector(-20.062, 4.511, 39.684), Vector(-16.436, 4.511, 33.534), Vector(-11.020, 2.509, 45.180),
+			Vector(-9.775, 2.510, 46.434), Vector(-7.730, 2.510, 48.002), Vector(-4.322, 2.510, 49.649), Vector(-1.847, 2.510, 46.057),
+			Vector(-2.145, 2.510, 44.674), Vector(-2.588, 2.510, 42.602), Vector(1.096, 5.199, 44.088), Vector(-6.063, 2.509, 39.315),
+			Vector(4.094, 0.817, 32.872), Vector(0.962, 0.938, 26.183), Vector(2.174, 0.933, 25.930), Vector(-2.098, 1, 25.364), Vector(
+			-3.292, 1, 20.006), Vector(-18.762, 0.821, 20.650), Vector(-13.914, 0.804, 19.659), Vector(-8.488, 1.616, 1.517), Vector(
+			-7.153, 1.832, -0.753), Vector(-33.637, 1.885, 11.846), Vector(-34.664, 1.991, 12.705), Vector(-35.507, 1.424, 30.649), Vector(
+			-36.589, 1.586, 32.520), Vector(-12.765, 4.062, 119.691), Vector(-12.059, 6.433, 128.252), Vector(10.219, 4.528, 130.248), 
+			Vector(-20.047, 1.510, 64.090), Vector(-18.867, 1.510, 63.315), Vector(-18.104, 1.510, 62.852), Vector(-53.928, 9.509, 34.211));
+		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
+		Call Subroutine(MrDestructo);
+	}
+}
+
+rule("Subroutine: MrDestructo | Created by Janni")
+{
+	event
+	{
+		Subroutine;
+		MrDestructo;
+	}
+
+	actions
+	{
+		If(Global.MrDestructoVector[Global.i] == 9999);
+			Destroy Dummy Bot(Team 1, 5);
+			Wait(1.100, Ignore Condition);
+			Pause Match Time;
+		End;
+		Abort If(Global.MrDestructoVector[Global.i] == 9999);
+		If(Global.MrDestructoVector[Global.i] == 0);
+			Create Dummy Bot(Hero(Reaper), Team 1, 5, Global.MrDestructoVector[Global.i], Vector(0, 0, 0));
+			Global.MrDestructo = Last Created Entity;
+			Wait(0.250, Ignore Condition);
+			Set Ultimate Ability Enabled(Global.MrDestructo, True);
+		End;
+		Wait(0.050, Ignore Condition);
+		Set Ultimate Charge(Global.MrDestructo, 100);
+		Teleport(Global.MrDestructo, Global.MrDestructoVector[Global.i]);
+		Start Holding Button(Global.MrDestructo, Button(Ultimate));
+		Wait(0.550, Ignore Condition);
+		Global.i = Global.i + 1;
+		Call Subroutine(MrDestructo);
+	}
+}

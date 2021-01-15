@@ -1,0 +1,69 @@
+variables
+{
+	global:
+		105: MrDestructoVector
+		106: MrDestructo
+		107: i
+}
+
+subroutines
+{
+	105: MrDestructo
+}
+
+rule("Mr Destructo Data")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Global.i = 0;
+		Global.MrDestructoVector = Array(0, Vector(17.427, 1, 14.286), Vector(18.855, 1, 13.531), Vector(23.647, 1, 4.917), Vector(26.846,
+			1, 1.195), Vector(18.948, 1, -13.579), Vector(17.647, 1, -13.428), Vector(11.657, 1.002, -12.222), Vector(11.777, 8.297,
+			-20.734), Vector(11.431, 8.299, -19.741), Vector(11.461, 8.299, -18.657), Vector(5.559, 10.174, -18.693), Vector(-7.199, 2.999,
+			-19.974), Vector(-6.980, 2.999, -18.892), Vector(-6.042, 2.999, -18.081), Vector(11.602, 3, 21.585), Vector(11.197, 3.050,
+			22.450), Vector(10.390, 3.546, 23.961), Vector(4.978, 3.208, 18.430), Vector(3.595, 3.049, 25.771), Vector(3.594, 3.050,
+			25.777), Vector(-0.750, 3.028, 26.026), Vector(-0.806, 3.031, 26.025), Vector(-6.144, 3.002, 21.249), Vector(-6.267, 3.025,
+			20.083), Vector(-6.278, 3.074, 19.452), Vector(11.735, 8.298, 20.606), Vector(11.883, 8.298, 19.710), Vector(11.728, 8.298,
+			17.777), Vector(-33.063, 3, 15.234), Vector(-33.825, 3, 14.963), Vector(-28.427, 2, 3.366), Vector(-28.427, 2, 3.366), Vector(
+			-43.590, 6, -2.784), Vector(-43.590, 6, -2.784), Vector(-23.474, 9.698, -5.196), Vector(-23.474, 9.698, -5.196), Vector(
+			-21.767, 10.649, 6.484), Vector(-21.767, 10.649, 6.484), Vector(-33.604, 3, -15.638), Vector(-33.646, 3, -15.710));
+		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
+		Call Subroutine(MrDestructo);
+	}
+}
+
+rule("Subroutine: MrDestructo | Created by Janni")
+{
+	event
+	{
+		Subroutine;
+		MrDestructo;
+	}
+
+	actions
+	{
+		If(Global.MrDestructoVector[Global.i] == 9999);
+			Destroy Dummy Bot(Team 1, 5);
+			Wait(1.100, Ignore Condition);
+			Pause Match Time;
+		End;
+		Abort If(Global.MrDestructoVector[Global.i] == 9999);
+		If(Global.MrDestructoVector[Global.i] == 0);
+			Create Dummy Bot(Hero(Reaper), Team 1, 5, Global.MrDestructoVector[Global.i], Vector(0, 0, 0));
+			Global.MrDestructo = Last Created Entity;
+			Wait(0.250, Ignore Condition);
+			Set Ultimate Ability Enabled(Global.MrDestructo, True);
+		End;
+		Wait(0.050, Ignore Condition);
+		Set Ultimate Charge(Global.MrDestructo, 100);
+		Teleport(Global.MrDestructo, Global.MrDestructoVector[Global.i]);
+		Start Holding Button(Global.MrDestructo, Button(Ultimate));
+		Wait(0.550, Ignore Condition);
+		Global.i = Global.i + 1;
+		Call Subroutine(MrDestructo);
+	}
+}
