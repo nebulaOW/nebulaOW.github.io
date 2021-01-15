@@ -23,7 +23,7 @@ Not included as there is nothing really breakable:
 - Petra
 
 ## INSTALLATION:
-1. Copy the contents of the applicable map .txt file from the [Maps](repos/MrDestructoData/Maps/) folder or from the list below.
+1. Copy the contents of the applicable map .txt file from the [Maps](../../repos/MrDestructoData/Maps/) folder or from the list below.
 - [Ayutthaya](repos/MrDestructoData/Maps/Ayutthaya.ow)
 - [Black Forest](repos/MrDestructoData/Maps/BlackForest.ow)
 - [Blizzard World](repos/MrDestructoData/Maps/BlizzardWorld.ow)
