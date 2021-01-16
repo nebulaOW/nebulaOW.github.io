@@ -254,3 +254,4 @@ defaults:
 collections:
   instructions:
     output: true
+    permalink: /:collection/:name
