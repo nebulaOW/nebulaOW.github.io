@@ -1,10 +1,12 @@
 ---
-title: "Nebula's Force Orb Order Mod for Hax Framework"
+title: "Hints & Force Orb Order Mod for Hax Framework"
 classes: wide
 excerpt: "A mod for Hax Framework to add hints and force the order of ability orbs."
 tags: 
   - Tools
 ---
+
+A collaboration between nebula and Nooter.
 
 This mod requires Hax's Doomfist Parkour play template (CODE: KNEAT).
 
