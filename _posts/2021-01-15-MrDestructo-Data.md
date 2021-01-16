@@ -2,8 +2,9 @@
 title: "Map Data for MrDestructo"
 classes: wide
 excerpt: "MrDestructo is a Reaper bot that destroys breakable objects."
-tags: 
-  - Tools
+toc: true
+toc_label: "Contents"
+toc_sticky: true
 ---
 
 
