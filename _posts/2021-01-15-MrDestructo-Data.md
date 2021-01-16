@@ -6,7 +6,6 @@ tags:
   - Tools
 ---
 
-# Map Data for MrDestructo  
 
 MrDestructo is a Reaper bot that destroys breakable objects.  
 
