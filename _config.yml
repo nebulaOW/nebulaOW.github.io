@@ -259,6 +259,6 @@ defaults:
     
 
 collections:
-  repos:
+  mrdestructo:
     output: true
-    permalink: /:collection/:path/
+    permalink: /mrdestructo/:name/
