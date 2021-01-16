@@ -249,3 +249,8 @@ defaults:
       comments: false
       share: false
       related: true
+
+
+collections:
+  instructions:
+    output: true
