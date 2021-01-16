@@ -10,7 +10,7 @@ Not included as there is nothing really breakable:
 - Petra  
 ---
 ## Installation:
-####Step 1
+#### Step 1
 Paste the entire condition statement below to the Hax Framework rule named *Player Joins, Current CP Color* using the yellow button that appears in the *conditions* section of the rule.  
 Be sure to copy from the word *conditions* to the closing curly brace *}*.  
 This condition allows Mr. Destructo to do his work without getting teleported back to Level Select.
@@ -21,7 +21,7 @@ conditions
 }
 ```
 ---
-####Step 2
+#### Step 2
 Copy and paste the following code using the yellow button at the top of the editor, above all the rules.
 This is the code that makes MrDestructo run. Be sure to add the data in step 3!
 ```
@@ -72,7 +72,7 @@ rule("Subroutine: MrDestructo | Created by Janni")
 }
 ```
 ---
-####Step 3
+#### Step 3
 Copy the contents of the applicable map below using the same yellow button in step 2.
 - [Ayutthaya](#ayutthaya)
 - [Black Forest](#black-forest)
@@ -103,7 +103,7 @@ Copy the contents of the applicable map below using the same yellow button in st
 
 ---
 
-###Ayutthaya<a name="ayutthaya"></a>
+### Ayutthaya<a name="ayutthaya"></a>
 ```
 rule("Mr Destructo Data | Ayutthaya")
 {
@@ -135,7 +135,7 @@ rule("Mr Destructo Data | Ayutthaya")
 	}
 }
 ```
-###Black Forest<a name="black-forest"></a>
+### Black Forest<a name="black-forest"></a>
 ```
 rule("Mr Destructo Data | Black Forest")
 {
@@ -176,7 +176,7 @@ rule("Mr Destructo Data | Black Forest")
 	}
 }
 ```
-###Blizzard World<a name="blizzard-world"></a>
+### Blizzard World<a name="blizzard-world"></a>
 ```
 rule("Mr Destructo Data | Blizzard World")
 {
@@ -217,7 +217,7 @@ rule("Mr Destructo Data | Blizzard World")
 	}
 }
 ```
-###Busan<a name="busan"></a>
+### Busan<a name="busan"></a>
 ```
 rule("Mr Destructo Data | Busan")
 {
@@ -352,7 +352,7 @@ rule("Mr Destructo Data | Busan")
 	}
 }
 ```
-###Castillo<a name="castillo"></a>
+### Castillo<a name="castillo"></a>
 ```
 rule("Mr Destructo Data | Castillo")
 {
@@ -383,7 +383,7 @@ rule("Mr Destructo Data | Castillo")
 	}
 }
 ```
-###Chateau Guillard<a name="chateau-guillard"></a>
+### Chateau Guillard<a name="chateau-guillard"></a>
 ```
 rule("Mr Destructo Data | Chateau Guillard")
 {
@@ -445,7 +445,7 @@ rule("Mr Destructo Data | Chateau Guillard")
 	}
 }
 ```
-###Dorado<a name="dorado"></a>
+### Dorado<a name="dorado"></a>
 ```
 rule("Mr Destructo Data | Dorado")
 {
@@ -505,7 +505,7 @@ rule("Mr Destructo Data | Dorado")
 	}
 }
 ```
-###Eichenwald<a name="eichenwald"></a>
+### Eichenwald<a name="eichenwald"></a>
 ```
 rule("Mr Destructo Data | Eichenwald")
 {
@@ -562,7 +562,7 @@ rule("Mr Destructo Data | Eichenwald")
 	}
 }
 ```
-###Hanamura<a name="hanamura"></a>
+### Hanamura<a name="hanamura"></a>
 ```
 rule("Mr Destructo Data | Hanamura")
 {
@@ -626,7 +626,7 @@ rule("Mr Destructo Data | Hanamura")
 	}
 }
 ```
-###Havana<a name="havana"></a>
+### Havana<a name="havana"></a>
 ```
 rule("Mr Destructo Data | Havana")
 {
@@ -682,7 +682,7 @@ rule("Mr Destructo Data | Havana")
 	}
 }
 ```
-###Hollywood<a name="hollywood"></a>
+### Hollywood<a name="hollywood"></a>
 ```
 rule("Mr Destructo Data | Hollywood")
 {
@@ -732,7 +732,7 @@ rule("Mr Destructo Data | Hollywood")
 	}
 }
 ```
-###Horizon Lunar Colony<a name="horizon-lunar-colony"></a>
+### Horizon Lunar Colony<a name="horizon-lunar-colony"></a>
 ```
 rule("Mr Destructo Data | Horizon Lunar Colony")
 {
@@ -797,7 +797,7 @@ rule("Mr Destructo Data | Horizon Lunar Colony")
 	}
 }
 ```
-###Ilios<a name="ilios"></a>
+### Ilios<a name="ilios"></a>
 ```
 rule("Mr Destructo Data | Ilios")
 {
@@ -880,7 +880,7 @@ rule("Mr Destructo Data | Ilios")
 	}
 }
 ```
-###Junkertown<a name="junkertown"></a>
+### Junkertown<a name="junkertown"></a>
 ```
 rule("Mr Destructo Data | Junkertown")
 {
@@ -917,7 +917,7 @@ rule("Mr Destructo Data | Junkertown")
 	}
 }
 ```
-###Lijiang Tower<a name="lijiang-tower"></a>
+### Lijiang Tower<a name="lijiang-tower"></a>
 ```
 rule("Mr Destructo Data | Lijiang Tower")
 {
@@ -1086,7 +1086,7 @@ rule("Mr Destructo Data | Lijiang Tower")
 	}
 }
 ```
-###Necropolis<a name="necropolis"></a>
+### Necropolis<a name="necropolis"></a>
 ```
 rule("Mr Destructo Data | Necropolis")
 {
@@ -1113,7 +1113,7 @@ rule("Mr Destructo Data | Necropolis")
 	}
 }
 ```
-###Nepal<a name="nepal"></a>
+### Nepal<a name="nepal"></a>
 ```
 rule("Mr Destructo Data | Nepal")
 {
@@ -1215,7 +1215,7 @@ rule("Mr Destructo Data | Nepal")
 	}
 }
 ```
-###Numbani<a name="numbani"></a>
+### Numbani<a name="numbani"></a>
 ```
 rule("Mr Destructo Data | Numbani")
 {
@@ -1329,7 +1329,7 @@ rule("Mr Destructo Data | Numbani")
 	}
 }
 ```
-###Oasis<a name="oasis"></a>
+### Oasis<a name="oasis"></a>
 ```
 rule("Mr Destructo Data | Oasis")
 {
@@ -1384,7 +1384,7 @@ rule("Mr Destructo Data | Oasis")
 	}
 }
 ```
-###Paris<a name="paris"></a>
+### Paris<a name="paris"></a>
 ```
 rule("Mr Destructo Data | Paris")
 {
@@ -1451,7 +1451,7 @@ rule("Mr Destructo Data | Paris")
 	}
 }
 ```
-###Rialto<a name="rialto"></a>
+### Rialto<a name="rialto"></a>
 ```
 rule("Mr Destructo Data | Rialto")
 {
@@ -1548,7 +1548,7 @@ rule("Mr Destructo Data | Rialto")
 	}
 }
 ```
-###Route 66<a name="route-66"></a>
+### Route 66<a name="route-66"></a>
 ```
 rule("Mr Destructo Data | Route 66")
 {
@@ -1595,7 +1595,7 @@ rule("Mr Destructo Data | Route 66")
 	}
 }
 ```
-###Temple of Anubis<a name="temple-of-anubis"></a>
+### Temple of Anubis<a name="temple-of-anubis"></a>
 ```
 rule("Mr Destructo Data | Temple of Anubis")
 {
@@ -1653,7 +1653,7 @@ rule("Mr Destructo Data | Temple of Anubis")
 	}
 }
 ```
-###Volskaya Industries<a name="volskaya-industries"></a>
+### Volskaya Industries<a name="volskaya-industries"></a>
 ```
 rule("Mr Destructo Data | Volskaya Industries")
 {
@@ -1723,7 +1723,7 @@ rule("Mr Destructo Data | Volskaya Industries")
 	}
 }
 ```
-###Watchpoint: Gibraltar<a name="watchpoint-gibraltar"></a>
+### Watchpoint: Gibraltar<a name="watchpoint-gibraltar"></a>
 ```
 rule("Mr Destructo Data | Watchpoint: Gibraltar")
 {
@@ -1764,7 +1764,7 @@ rule("Mr Destructo Data | Watchpoint: Gibraltar")
 	}
 }
 ```
-###Empty Map (For future maps)<a name="empty-map"></a>
+### Empty Map (For future maps)<a name="empty-map"></a>
 ```
 rule("Mr Destructo Data | Empty Map")
 {
