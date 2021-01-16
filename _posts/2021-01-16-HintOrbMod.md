@@ -151,8 +151,8 @@ The variable, *Global.hintStringsArray*, contains the text that will appear as a
 
 # TROUBLESHOOTING
 ### Data Corrupt warning
-1. Enable the SETUP and Data Corrector Rules below.
-2. In the LevelLengths array, add entries containing the amount of checkpoints in each level (in order, and including the deleted level). Leave the first entry as 1.
+1. Enable the SETUP and Data Corrector Rules.
+2. Expand the SETUP rule. In the LevelLengths array, add entries containing the amount of checkpoints in each level (in order, and including the deleted level). Leave the first entry as 1.
 3. Set the deletedLevel variable to the level that was deleted.
 4. Set the dataCorrector variable True.
 5. Restart the lobby, and open the Workshop Inspector.
