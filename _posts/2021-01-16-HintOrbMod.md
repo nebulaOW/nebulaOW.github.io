@@ -1,11 +1,11 @@
 ---
 title: "Hints & Force Orb Order Mod for Hax Framework"
-classes: wide
 excerpt: "A mod for Hax Framework to add hints and force the order of ability orbs."
 tags: 
   - Tools
 toc: true
 toc_label: "Contents"
+toc_sticky: true
 ---
 
 A collaboration between nebula and Nooter.
@@ -26,7 +26,7 @@ This is a modification to the KNEAT template made by Hax. BEFORE PASTING ANY COD
 Variables and subroutines in the workshop are numbered, check that the NEW variables and subroutines defined in this mod are free in your live map (ie. make sure its number is a free slot in the variable list (non-free variables are greyed out); if not, change its number to a number with a free slot).
 </div>
 
-## REFERENCE FOR NEW VARIABLES/SUBROUTINES:
+## Reference for New Variables & Subroutines:
 ```
 variables
 {

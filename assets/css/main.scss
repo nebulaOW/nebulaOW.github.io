@@ -3,9 +3,6 @@
 ---
 
 @charset "utf-8";
-$primary-color: #faa916;
-$code-background-color: mix(#000, $primary-color, 15%);
-$code-background-color-dark: mix(#000, $primary-color, 20%);
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
