@@ -6,7 +6,10 @@ tags:
   - Tools
 ---
 
-# Map Data for MrDestructo
+# Map Data for MrDestructo  
+
+MrDestructo is a Reaper bot that destroys breakable objects.  
+
 I found the code for MrDestructo on a map made in the DiaZ/AOD framework.   
 **Credit goes to Janni for creating MrDestructo** and to whoever put together Rialto and Hollywood.
 I decided to create map data for each map. I've included the entire subroutine.  
