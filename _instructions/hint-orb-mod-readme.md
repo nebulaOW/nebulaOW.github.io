@@ -1,3 +1,7 @@
+---
+layout: instructions
+title: insutructions
+---
 # Nebula's Force Orb Order Mod for Hax Framework
 
 This mod requires Hax's Doomfist Parkour play template (CODE: KNEAT).
