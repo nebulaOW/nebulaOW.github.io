@@ -19,6 +19,8 @@ In addition, this mod adds the ability to force the order of picking up ability 
 
 
 <div class="notice--danger">
+  <b>DANGER:</b>  
+  
 This is a modification to the KNEAT template made by Hax. BEFORE PASTING ANY CODE, MAKE SURE YOU ARE NOT OVERWRITING ANY EXISTING VARIABLES or SUBROUTINES. 
 
 Variables and subroutines in the workshop are numbered, check that the NEW variables and subroutines defined in this mod are free in your live map (ie. make sure its number is a free slot in the variable list (non-free variables are greyed out); if not, change its number to a number with a free slot).
@@ -58,11 +60,11 @@ subroutines
 
 ---
 
-# INSTALLATION
+# Installation
 
-## STEP ONE: MAP CREATION
+## Step One: Map Creation
 
-Save your map data!!! Preferably in a .txt file!!!
+Attention: Save your map data!!! Preferably in a .txt file!!!
 {: .notice--warning}
 
 IN THE HAVVX TEMPLATE:  
@@ -71,7 +73,7 @@ This allows you to see clearly the order of the orbs while creating a checkpoint
 I suggest placing all orbs you will need *BEFORE* fine-tuning their size/position because the numbering changes during orb creation.  
 Otherwise, you may have to reposition the orbs!  
 
-## STEP TWO: INSTALLATION / SYNCHRONIZATION / MARKING CHECKPOINTS
+## Step Two: Installation / Synchronization / Marking Checkpoints
 IN THE KNEAT TEMPLATE:
 1. Copy and paste the contents of [Hints & Force Orb Order Mod](#hints--force-orb-order-mod) into your live map and reload.  
 
@@ -86,7 +88,7 @@ IN THE KNEAT TEMPLATE:
 A small message will appear on screen showing that the checkpoint has been set to *True*.   
 You are unable to set a single checkpoint to both 3 Orb and 2 Orb. It will default to the last selection.  
 
-## STEP THREE: SAVING DATA
+## Step Three: Saving Data
 1. Press *Esc* and then click the *Open Workshop Inspector* button.  
 2. Select *Global* from the drop down menu in the bottom right corner of the Inspector.  
 
@@ -121,7 +123,7 @@ You are unable to set a single checkpoint to both 3 Orb and 2 Orb. It will defau
     </figure>
 
 
-## STEP FOUR: ENTERING HINT MESSAGES
+## Step Four: Entering Hint Messages
 Skip this step if you are not using hints.
 {: .notice--info}
 
@@ -133,7 +135,7 @@ The variable, *Global.hintStringsArray*, contains the text that will appear as a
 2. *(Optional)* Save the .txt file as Hint Data.txt for safety 
 3. Now, Select All, copy, and paste these updated actions into the "Paste Orb / Hint Data Here" Rule and delete the old *Global.hintStringsArray*.
 
-## STEP FIVE: DISABLING RULES
+## Step Five: Disabling Rules
 1. Disable the Hax Framework rule named *TCD detect*. If this is not done, this mod may not work properly!  
 
     <figure>
@@ -144,13 +146,13 @@ The variable, *Global.hintStringsArray*, contains the text that will appear as a
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒   
 
 
-## STEP SIX: FINISHING UP
+## Step Six: Finishing Up
 1. Restart the lobby.
 2. Save settings.
 
 ---
 
-# TROUBLESHOOTING
+# Troubleshooting
 ### Data Corrupt warning
 1. Enable the SETUP and Data Corrector Rules.
 2. Expand the SETUP rule. In the LevelLengths array, add entries containing the amount of checkpoints in each level (in order, and including the deleted level). Leave the first entry as 1.
