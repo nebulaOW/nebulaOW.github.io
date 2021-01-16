@@ -250,6 +250,7 @@ defaults:
       comments: false
       share: false
       related: true
+    classes: wide
 
   # _repos
   - scope:
