@@ -70,7 +70,7 @@ Otherwise, you may have to reposition the orbs!
 
 ## STEP TWO: INSTALLATION / SYNCHRONIZATION / MARKING CHECKPOINTS
 IN THE KNEAT TEMPLATE:
-1. Copy and paste the contents of [Hints & Force Orb Order Mod](#hints-force-orb-order-mod) into your live map and reload.  
+1. Copy and paste the contents of [Hints & Force Orb Order Mod](#hints--force-orb-order-mod) into your live map and reload.  
 
     <figure>
         <a href="/assets/images/hintorb/paste-rule.png"><img src="/assets/images/hintorb/paste-rule.png"></a>
