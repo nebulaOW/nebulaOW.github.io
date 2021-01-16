@@ -72,10 +72,9 @@ Otherwise, you may have to reposition the orbs!
 IN THE KNEAT TEMPLATE:
 1. Copy and paste the contents of [Hint_ForceOrbOrder_Mod](Hint_ForceOrbOrder_Mod.ow) into your live map and reload.  
 
-<figure>
-	<a href="/assets/images/hintorb/paste-rule.png"><img src="/assets/images/hintorb/paste-rule.png"></a>
-	<figcaption>Yellow paste button used for rules.</figcaption>
-</figure>
+    <figure>
+        <a href="/assets/images/hintorb/paste-rule.png"><img src="/assets/images/hintorb/paste-rule.png"></a>
+    </figure>
 
 2. Press any *Spray* to open (and close) the menu.  
 3. Click *Synchronize* to install; this will initialize the marking arrays. You can click this button at any time to ensure data is synced! 
@@ -87,7 +86,11 @@ You are unable to set a single checkpoint to both 3 Orb and 2 Orb. It will defau
 ## STEP THREE: SAVING DATA
 1. Press *Esc* and then click the *Open Workshop Inspector* button.  
 2. Select *Global* from the drop down menu in the bottom right corner of the Inspector.  
-![Inspector Global Drop-Down](images/InspectorGlobal.jpg)
+
+    <figure>
+        <a href="/assets/images/hintorb/global-target.png"><img src="/assets/images/hintorb/global-target.png"></a>
+    </figure>
+
 3. Click the "(x)" button directly to the left of the drop-down menu which will copy to clipboard all global variables as workshop actions.  
 ![Inspector Copy](images/CopyInspector.jpg)
 4. Paste what you copied from the Inspector into the *actions* section of the *Paste Orb / Hint Data Here* rule which is located at the bottom of the rule list.    
