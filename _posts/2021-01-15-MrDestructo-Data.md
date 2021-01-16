@@ -105,7 +105,7 @@ Copy the contents of the applicable map below using the same yellow button in st
 
 
 
-###Ayutthaya
+###Ayutthaya<a name="ayutthaya"></a>
 ```
 rule("Mr Destructo Data | Ayutthaya")
 {
