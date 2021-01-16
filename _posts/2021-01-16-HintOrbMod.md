@@ -98,13 +98,13 @@ You are unable to set a single checkpoint to both 3 Orb and 2 Orb. It will defau
     </figure>
 
 4. Paste what you copied from the Inspector into the *actions* section of the *Paste Orb / Hint Data Here* rule which is located at the bottom of the rule list.    
-The only actions you will need in this list are the last two. They define the variables *Global.orbHintArray* and *Global.hintStringsArray*.
+    The only actions you will need in this list are the last two. They define the variables *Global.orbHintArray* and *Global.hintStringsArray*.
 
     <figure>
         <a href="/assets/images/hintorb/array-variables.png"><img src="/assets/images/hintorb/array-variables.png"></a>
     </figure>
 
-Don't worry if your arrays will not look the same as this; they will be much longer.  
+    Don't worry if your arrays will not look the same as this; they will be much longer.  
 5. Use the *Select All* button in the *actions* section and uncheck the two arrays *Global.orbHintArray* and *Global.hintStringsArray*. 
 
     <figure>
