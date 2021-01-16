@@ -1,8 +1,6 @@
 ---
 title: "Hints & Force Orb Order Mod for Hax Framework"
 excerpt: "A mod for Hax Framework to add hints and force the order of ability orbs."
-tags: 
-  - Tools
 toc: true
 toc_label: "Contents"
 toc_sticky: true
