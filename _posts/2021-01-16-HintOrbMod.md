@@ -18,11 +18,11 @@ If a player fails a checkpoint that has been marked as a Hint CP, a small messag
 In addition, this mod adds the ability to force the order of picking up ability orbs. This is not to be used with any other orbs than **ability** orbs. Death orbs will **NOT** work. I have not tested any other orb but I assume they will all be broken on any checkpoint that uses this mod!  
 
 
-## **WARNING:** 
+<div class="notice--danger">
 This is a modification to the KNEAT template made by Hax. BEFORE PASTING ANY CODE, MAKE SURE YOU ARE NOT OVERWRITING ANY EXISTING VARIABLES or SUBROUTINES. 
 
 Variables and subroutines in the workshop are numbered, check that the NEW variables and subroutines defined in this mod are free in your live map (ie. make sure its number is a free slot in the variable list (non-free variables are greyed out); if not, change its number to a number with a free slot).
-
+</div>
 
 ## REFERENCE FOR NEW VARIABLES/SUBROUTINES:
 ```
@@ -62,15 +62,14 @@ subroutines
 
 ## STEP ONE: MAP CREATION
 
-**ATTENTION: Save your map data!!! Preferably in a .txt file!!!**  
+Save your map data!!! Preferably in a .txt file!!!
+{: .notice--warning}
 
 IN THE HAVVX TEMPLATE:  
 1. Copy and paste the code from [HAVVX Orb Numbers](#havvx-orb-numbers) and reload.  
 This allows you to see clearly the order of the orbs while creating a checkpoint.  
 I suggest placing all orbs you will need *BEFORE* fine-tuning their size/position because the numbering changes during orb creation.  
 Otherwise, you may have to reposition the orbs!  
-
-**ATTENTION: Save your map data!!! Preferably in a .txt file!!!**  
 
 ## STEP TWO: INSTALLATION / SYNCHRONIZATION / MARKING CHECKPOINTS
 IN THE KNEAT TEMPLATE:
@@ -82,7 +81,7 @@ IN THE KNEAT TEMPLATE:
 
 2. Press any *Spray* to open (and close) the menu.  
 3. Click *Synchronize* to install; this will initialize the marking arrays. You can click this button at any time to ensure data is synced! 
-	- **ATTENTION:** If you have previously installed this mod and recently deleted a level, you will recieve a message saying data is corrupt, read the [Troubleshooting](#troubleshooting) section.
+  If you have previously installed this mod and recently deleted a level, you will recieve a message saying data is corrupt, read the [Troubleshooting](#troubleshooting) section.{: .notice--warning}
 4. Navigate to the checkpoints that require this mod, open the menu, and click the corresponding button to mark the checkpoint as *Hint*, *2 Orb*, or *3 Orb*.  
 A small message will appear on screen showing that the checkpoint has been set to *True*.   
 You are unable to set a single checkpoint to both 3 Orb and 2 Orb. It will default to the last selection.  
@@ -123,7 +122,8 @@ You are unable to set a single checkpoint to both 3 Orb and 2 Orb. It will defau
 
 
 ## STEP FOUR: ENTERING HINT MESSAGES
-**Skip this step if you are not using hints.**
+Skip this step if you are not using hints.
+{: .notice--info}
 
 The variable, *Global.hintStringsArray*, contains the text that will appear as a hint.
 1. In a text editor, replace the dummy text with your Hint Messages where appropriate. 
