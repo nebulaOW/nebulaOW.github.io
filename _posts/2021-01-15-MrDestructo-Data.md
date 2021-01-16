@@ -84,32 +84,6 @@ rule("Subroutine: MrDestructo | Created by Janni")
 
 #### Step 3  
 Copy the contents of the applicable map below using the same yellow button in step 2.  
-- [Ayutthaya](#ayutthaya)
-- [Black Forest](#black-forest)
-- [Blizzard World](#blizzard-world)
-- [Busan](#busan)
-- [Castillo](#castillo)
-- [Chateau Guillard](#chateau-guillard)
-- [Dorado](#dorado)
-- [Eichenwald](#eichenwald)
-- [Hanamura](#hanamura)
-- [Havana](#havana)
-- [Hollywood](#hollywood)
-- [Horizon Lunar Colony](#horizon-lunar-colony)
-- [Ilios](#ilios)
-- [Junkertown](#junkertown)
-- [Lijiang Tower](#lijiang-tower)
-- [Necropolis](#necropolis)
-- [Nepal](#nepal)
-- [Numbani](#numbani)
-- [Oasis](#oasis)
-- [Paris](#paris)
-- [Rialto](#rialto)
-- [Route 66](#route-66)
-- [Temple of Anubis](#temple-of-anubis)
-- [Volskaya Industries](#volskaya-industries)
-- [Watchpoint: Gibraltar](#watchpoint-gibraltar)
-- [Empty Map (For future maps)](#empty-map)
 
   
 
