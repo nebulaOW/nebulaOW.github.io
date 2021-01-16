@@ -103,7 +103,7 @@ Copy the contents of the applicable map below using the same yellow button in st
 
   
 
-### Ayutthaya<a name="ayutthaya"></a>
+### Ayutthaya
 ```
 rule("Mr Destructo Data | Ayutthaya")
 {
@@ -137,7 +137,7 @@ rule("Mr Destructo Data | Ayutthaya")
 ```
 [Return to map list](#step-3)
 
-### Black Forest<a name="black-forest"></a>
+### Black Forest
 ```
 rule("Mr Destructo Data | Black Forest")
 {
@@ -180,7 +180,7 @@ rule("Mr Destructo Data | Black Forest")
 ```
 [Return to map list](#step-3)
 
-### Blizzard World<a name="blizzard-world"></a>
+### Blizzard World
 ```
 rule("Mr Destructo Data | Blizzard World")
 {
