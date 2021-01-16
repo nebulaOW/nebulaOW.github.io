@@ -249,3 +249,16 @@ defaults:
       comments: false
       share: false
       related: true
+  # _repos
+  - scope:
+      path: ""
+      type: repos
+    values: single
+    author_profile: false
+    share: false
+    
+
+collections:
+  repos:
+    output: true
+    permalink: /:collection/:path/
