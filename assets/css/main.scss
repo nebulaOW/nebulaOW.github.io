@@ -3,13 +3,6 @@
 ---
 
 @charset "utf-8";
-$primary-color: #faa916;
-$code-background-color: #efcc90;
-
-code {
-  /* force background code highlighting inside headings & all other elements too */
-  background: $code-background-color;
-}
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
