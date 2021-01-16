@@ -5,6 +5,7 @@ tags:
   - Tools
 toc: true
 toc_label: "Contents"
+toc_sticky: true
 ---
 
 A collaboration between nebula and Nooter.
