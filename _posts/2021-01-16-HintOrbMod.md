@@ -64,7 +64,7 @@ subroutines
 
 ## Step One: Map Creation
 
-Attention: Save your map data!!! Preferably in a .txt file!!!
+**ATTENTION:** Save your map data!!! Preferably in a .txt file!!!
 {: .notice--warning}
 
 IN THE HAVVX TEMPLATE:  
