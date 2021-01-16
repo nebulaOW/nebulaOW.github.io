@@ -5,6 +5,7 @@ excerpt: "A mod for Hax Framework to add hints and force the order of ability or
 tags: 
   - Tools
 toc: true
+toc_label: "Contents"
 ---
 
 A collaboration between nebula and Nooter.
@@ -81,7 +82,7 @@ IN THE KNEAT TEMPLATE:
 
 2. Press any *Spray* to open (and close) the menu.  
 3. Click *Synchronize* to install; this will initialize the marking arrays. You can click this button at any time to ensure data is synced! 
-	- **ATTENTION:** If you get a warning about data becoming corrupted, read the [Troubleshooting](#troubleshooting) section.
+	- **ATTENTION:** If you have previously installed this mod and recently deleted a level, you will recieve a message saying data is corrupt, read the [Troubleshooting](#troubleshooting) section.
 4. Navigate to the checkpoints that require this mod, open the menu, and click the corresponding button to mark the checkpoint as *Hint*, *2 Orb*, or *3 Orb*.  
 A small message will appear on screen showing that the checkpoint has been set to *True*.   
 You are unable to set a single checkpoint to both 3 Orb and 2 Orb. It will default to the last selection.  
@@ -125,7 +126,7 @@ You are unable to set a single checkpoint to both 3 Orb and 2 Orb. It will defau
 **Skip this step if you are not using hints.**
 
 The variable, *Global.hintStringsArray*, contains the text that will appear as a hint.
-1. In the text editor, replace the dummy text with your Hint Messages where appropriate. 
+1. In a text editor, replace the dummy text with your Hint Messages where appropriate. 
 	- *NOTE*: Keep your Hint Message brief! It should not exceed one line.  
 
 	- *NOTE*: any text in a Custom String MUST be placed bewteen quotations: eg. Custom String("[your text here]") will display: [your text here]
