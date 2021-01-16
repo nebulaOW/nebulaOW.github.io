@@ -6,11 +6,16 @@ tags:
   - Tools
 ---
 
+### Installation:
 Copy the contents below and paste into your live map.  
 
+
+### Customization:
 To toggle the HUD on/off, use any *Spray*.  
+
 To change the hotkey, look in the *conditions* section of the rule named *HUD*.  
-There will be a disabled condition that you can modify. Be sure to enable that condition and disable the *Spray* condition above it.  
+There will be a disabled condition that you can modify.  
+Be sure to enable that condition and disable the *Spray* condition above it.  
 
 
 ```
