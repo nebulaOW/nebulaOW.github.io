@@ -8,22 +8,22 @@ Not included as there is nothing really breakable:
 - King's Row
 - Ecopoint: Antartica
 - Petra  
----
+
 ## Installation:
-#### Step 1
+#### Step 1  
 Paste the entire condition statement below to the Hax Framework rule named *Player Joins, Current CP Color* using the yellow button that appears in the *conditions* section of the rule.  
 Be sure to copy from the word *conditions* to the closing curly brace *}*.  
-This condition allows Mr. Destructo to do his work without getting teleported back to Level Select.
+This condition allows Mr. Destructo to do his work without getting teleported back to Level Select.  
 ```
 conditions
 {
     Is Dummy Bot(Event Player) == False;
 }
 ```
----
-#### Step 2
+
+#### Step 2  
 Copy and paste the following code using the yellow button at the top of the editor, above all the rules.
-This is the code that makes MrDestructo run. Be sure to add the data in step 3!
+This is the code that makes MrDestructo run. Be sure to add the data in step 3!  
 ```
 variables
 {
@@ -71,9 +71,9 @@ rule("Subroutine: MrDestructo | Created by Janni")
 	}
 }
 ```
----
-#### Step 3
-Copy the contents of the applicable map below using the same yellow button in step 2.
+
+#### Step 3  
+Copy the contents of the applicable map below using the same yellow button in step 2.  
 - [Ayutthaya](#ayutthaya)
 - [Black Forest](#black-forest)
 - [Blizzard World](#blizzard-world)
@@ -101,7 +101,7 @@ Copy the contents of the applicable map below using the same yellow button in st
 - [Watchpoint: Gibraltar](#watchpoint-gibraltar)
 - [Empty Map (For future maps)](#empty-map)
 
----
+  
 
 ### Ayutthaya<a name="ayutthaya"></a>
 ```
