@@ -2,8 +2,6 @@
 title: "Direction and Space Indicators HUD"
 classes: wide
 excerpt: "A togglable HUD that shows which direction you are moving and when you press jump."
-tags: 
-  - Tools
 ---
 
 ### Installation:
