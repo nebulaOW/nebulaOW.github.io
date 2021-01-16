@@ -223,7 +223,7 @@ rule("Mr Destructo Data | Blizzard World")
 ```
 [Return to map list](#step-3)
 
-### Busan<a name="busan"></a>
+### Busan
 ```
 rule("Mr Destructo Data | Busan")
 {
@@ -360,7 +360,7 @@ rule("Mr Destructo Data | Busan")
 ```
 [Return to map list](#step-3)
 
-### Castillo<a name="castillo"></a>
+### Castillo
 ```
 rule("Mr Destructo Data | Castillo")
 {
@@ -393,7 +393,7 @@ rule("Mr Destructo Data | Castillo")
 ```
 [Return to map list](#step-3)
 
-### Chateau Guillard<a name="chateau-guillard"></a>
+### Chateau Guillard
 ```
 rule("Mr Destructo Data | Chateau Guillard")
 {
@@ -457,7 +457,7 @@ rule("Mr Destructo Data | Chateau Guillard")
 ```
 [Return to map list](#step-3)
 
-### Dorado<a name="dorado"></a>
+### Dorado
 ```
 rule("Mr Destructo Data | Dorado")
 {
@@ -519,7 +519,7 @@ rule("Mr Destructo Data | Dorado")
 ```
 [Return to map list](#step-3)
 
-### Eichenwald<a name="eichenwald"></a>
+### Eichenwald
 ```
 rule("Mr Destructo Data | Eichenwald")
 {
@@ -578,7 +578,7 @@ rule("Mr Destructo Data | Eichenwald")
 ```
 [Return to map list](#step-3)
 
-### Hanamura<a name="hanamura"></a>
+### Hanamura
 ```
 rule("Mr Destructo Data | Hanamura")
 {
@@ -644,7 +644,7 @@ rule("Mr Destructo Data | Hanamura")
 ```
 [Return to map list](#step-3)
 
-### Havana<a name="havana"></a>
+### Havana
 ```
 rule("Mr Destructo Data | Havana")
 {
@@ -702,7 +702,7 @@ rule("Mr Destructo Data | Havana")
 ```
 [Return to map list](#step-3)
 
-### Hollywood<a name="hollywood"></a>
+### Hollywood
 ```
 rule("Mr Destructo Data | Hollywood")
 {
@@ -754,7 +754,7 @@ rule("Mr Destructo Data | Hollywood")
 ```
 [Return to map list](#step-3)
 
-### Horizon Lunar Colony<a name="horizon-lunar-colony"></a>
+### Horizon Lunar Colony
 ```
 rule("Mr Destructo Data | Horizon Lunar Colony")
 {
@@ -821,7 +821,7 @@ rule("Mr Destructo Data | Horizon Lunar Colony")
 ```
 [Return to map list](#step-3)
 
-### Ilios<a name="ilios"></a>
+### Ilios
 ```
 rule("Mr Destructo Data | Ilios")
 {
@@ -906,7 +906,7 @@ rule("Mr Destructo Data | Ilios")
 ```
 [Return to map list](#step-3)
 
-### Junkertown<a name="junkertown"></a>
+### Junkertown
 ```
 rule("Mr Destructo Data | Junkertown")
 {
@@ -945,7 +945,7 @@ rule("Mr Destructo Data | Junkertown")
 ```
 [Return to map list](#step-3)
 
-### Lijiang Tower<a name="lijiang-tower"></a>
+### Lijiang Tower
 ```
 rule("Mr Destructo Data | Lijiang Tower")
 {
@@ -1116,7 +1116,7 @@ rule("Mr Destructo Data | Lijiang Tower")
 ```
 [Return to map list](#step-3)
 
-### Necropolis<a name="necropolis"></a>
+### Necropolis
 ```
 rule("Mr Destructo Data | Necropolis")
 {
@@ -1145,7 +1145,7 @@ rule("Mr Destructo Data | Necropolis")
 ```
 [Return to map list](#step-3)
 
-### Nepal<a name="nepal"></a>
+### Nepal
 ```
 rule("Mr Destructo Data | Nepal")
 {
@@ -1249,7 +1249,7 @@ rule("Mr Destructo Data | Nepal")
 ```
 [Return to map list](#step-3)
 
-### Numbani<a name="numbani"></a>
+### Numbani
 ```
 rule("Mr Destructo Data | Numbani")
 {
@@ -1365,7 +1365,7 @@ rule("Mr Destructo Data | Numbani")
 ```
 [Return to map list](#step-3)
 
-### Oasis<a name="oasis"></a>
+### Oasis
 ```
 rule("Mr Destructo Data | Oasis")
 {
@@ -1422,7 +1422,7 @@ rule("Mr Destructo Data | Oasis")
 ```
 [Return to map list](#step-3)
 
-### Paris<a name="paris"></a>
+### Paris
 ```
 rule("Mr Destructo Data | Paris")
 {
@@ -1491,7 +1491,7 @@ rule("Mr Destructo Data | Paris")
 ```
 [Return to map list](#step-3)
 
-### Rialto<a name="rialto"></a>
+### Rialto
 ```
 rule("Mr Destructo Data | Rialto")
 {
@@ -1590,7 +1590,7 @@ rule("Mr Destructo Data | Rialto")
 ```
 [Return to map list](#step-3)
 
-### Route 66<a name="route-66"></a>
+### Route 66
 ```
 rule("Mr Destructo Data | Route 66")
 {
@@ -1639,7 +1639,7 @@ rule("Mr Destructo Data | Route 66")
 ```
 [Return to map list](#step-3)
 
-### Temple of Anubis<a name="temple-of-anubis"></a>
+### Temple of Anubis
 ```
 rule("Mr Destructo Data | Temple of Anubis")
 {
@@ -1699,7 +1699,7 @@ rule("Mr Destructo Data | Temple of Anubis")
 ```
 [Return to map list](#step-3)
 
-### Volskaya Industries<a name="volskaya-industries"></a>
+### Volskaya Industries
 ```
 rule("Mr Destructo Data | Volskaya Industries")
 {
@@ -1771,7 +1771,7 @@ rule("Mr Destructo Data | Volskaya Industries")
 ```
 [Return to map list](#step-3)
 
-### Watchpoint: Gibraltar<a name="watchpoint-gibraltar"></a>
+### Watchpoint: Gibraltar
 ```
 rule("Mr Destructo Data | Watchpoint: Gibraltar")
 {
@@ -1814,7 +1814,7 @@ rule("Mr Destructo Data | Watchpoint: Gibraltar")
 ```
 [Return to map list](#step-3)
 
-### Empty Map (For future maps)<a name="empty-map"></a>
+### Empty Map (For future maps)
 ```
 rule("Mr Destructo Data | Empty Map")
 {
