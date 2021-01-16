@@ -92,13 +92,31 @@ You are unable to set a single checkpoint to both 3 Orb and 2 Orb. It will defau
     </figure>
 
 3. Click the "(x)" button directly to the left of the drop-down menu which will copy to clipboard all global variables as workshop actions.  
-![Inspector Copy](images/CopyInspector.jpg)
+
+    <figure>
+        <a href="/assets/images/hintorb/copy-contents.png"><img src="/assets/images/hintorb/copy-contents.png"></a>
+    </figure>
+
 4. Paste what you copied from the Inspector into the *actions* section of the *Paste Orb / Hint Data Here* rule which is located at the bottom of the rule list.    
 The only actions you will need in this list are the last two. They define the variables *Global.orbHintArray* and *Global.hintStringsArray*.
-![Two Arrays](images/TwoArrays.jpg)  
+
+    <figure>
+        <a href="/assets/images/hintorb/array-variables.png"><img src="/assets/images/hintorb/array-variables.png"></a>
+    </figure>
+
 Don't worry if your arrays will not look the same as this; they will be much longer.  
 5. Use the *Select All* button in the *actions* section and uncheck the two arrays *Global.orbHintArray* and *Global.hintStringsArray*. 
+
+    <figure>
+        <a href="/assets/images/hintorb/select-all.png"><img src="/assets/images/hintorb/select-all.png"></a>
+    </figure>
+
 6. Use the *Delete* button in the *actions* section to delete all unnecessary data.
+
+    <figure>
+        <a href="/assets/images/hintorb/delete-actions.png"><img src="/assets/images/hintorb/delete-actions.png"></a>
+    </figure>
+
 
 ## STEP FOUR: ENTERING HINT MESSAGES
 **Skip this step if you are not using hints.**
@@ -113,7 +131,11 @@ The variable, *Global.hintStringsArray*, contains the text that will appear as a
 
 ## STEP FIVE: DISABLING RULES
 1. Disable the Hax Framework rule named *TCD detect*. If this is not done, this mod may not work properly!  
-![Disable Rule](images/DisableRule.jpg)
+
+    <figure>
+        <a href="/assets/images/hintorb/disable-rules.png"><img src="/assets/images/hintorb/disable-rules.png"></a>
+    </figure>
+
 2. Disable the rules that are located between the two that look like:
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒   
 
