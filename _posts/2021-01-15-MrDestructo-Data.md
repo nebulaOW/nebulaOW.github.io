@@ -24,6 +24,26 @@ Not included as there is nothing really breakable:
 Paste the entire condition statement below to the Hax Framework rule named *Player Joins, Current CP Color* using the yellow button that appears in the *conditions* section of the rule.  
 Be sure to copy from the word *conditions* to the closing curly brace *}*.  
 This condition allows Mr. Destructo to do his work without getting teleported back to Level Select.  
+{%- capture code -%}
+/* Some js code */
+const redis = require('redis');
+const host = <HOSTNAME>;
+{%- endcapture -%}
+
+{% include code_snippet.md code=code language='javascript' %}
+
+{%- capture code -%}
+```
+conditions
+{
+    Is Dummy Bot(Event Player) == False;
+}
+```
+t = Time.now
+t.succ  
+{%- endcapture -%}
+
+{% include code_snippet.md code=code language='ruby' %}
 ```
 conditions
 {
