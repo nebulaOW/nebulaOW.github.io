@@ -4,6 +4,8 @@ classes: wide
 excerpt: "A mod for Hax Framework to add hints and force the order of ability orbs."
 tags: 
   - Tools
+toc: true
+toc_label: "Contents"
 ---
 
 A collaboration between nebula and Nooter.
@@ -16,11 +18,13 @@ If a player fails a checkpoint that has been marked as a Hint CP, a small messag
 In addition, this mod adds the ability to force the order of picking up ability orbs. This is not to be used with any other orbs than **ability** orbs. Death orbs will **NOT** work. I have not tested any other orb but I assume they will all be broken on any checkpoint that uses this mod!  
 
 
-## **WARNING:** 
+<div class="notice--danger">
+  <b>DANGER:</b>  
+  
 This is a modification to the KNEAT template made by Hax. BEFORE PASTING ANY CODE, MAKE SURE YOU ARE NOT OVERWRITING ANY EXISTING VARIABLES or SUBROUTINES. 
 
 Variables and subroutines in the workshop are numbered, check that the NEW variables and subroutines defined in this mod are free in your live map (ie. make sure its number is a free slot in the variable list (non-free variables are greyed out); if not, change its number to a number with a free slot).
-
+</div>
 
 ## REFERENCE FOR NEW VARIABLES/SUBROUTINES:
 ```
@@ -56,11 +60,12 @@ subroutines
 
 ---
 
-# INSTALLATION
+# Installation
 
-## STEP ONE: MAP CREATION
+## Step One: Map Creation
 
-**ATTENTION: Save your map data!!! Preferably in a .txt file!!!**  
+**ATTENTION:** Save your map data!!! Preferably in a .txt file!!!
+{: .notice--warning}
 
 IN THE HAVVX TEMPLATE:  
 1. Copy and paste the code from [HAVVX Orb Numbers](#havvx-orb-numbers) and reload.  
@@ -68,9 +73,7 @@ This allows you to see clearly the order of the orbs while creating a checkpoint
 I suggest placing all orbs you will need *BEFORE* fine-tuning their size/position because the numbering changes during orb creation.  
 Otherwise, you may have to reposition the orbs!  
 
-**ATTENTION: Save your map data!!! Preferably in a .txt file!!!**  
-
-## STEP TWO: INSTALLATION / SYNCHRONIZATION / MARKING CHECKPOINTS
+## Step Two: Installation / Synchronization / Marking Checkpoints
 IN THE KNEAT TEMPLATE:
 1. Copy and paste the contents of [Hints & Force Orb Order Mod](#hints--force-orb-order-mod) into your live map and reload.  
 
@@ -80,12 +83,12 @@ IN THE KNEAT TEMPLATE:
 
 2. Press any *Spray* to open (and close) the menu.  
 3. Click *Synchronize* to install; this will initialize the marking arrays. You can click this button at any time to ensure data is synced! 
-	- **ATTENTION:** If you get a warning about data becoming corrupted, read the [Troubleshooting](#troubleshooting) section.
+  If you have previously installed this mod and recently deleted a level, you will recieve a message saying data is corrupt, read the [Troubleshooting](#troubleshooting) section.{: .notice--warning}
 4. Navigate to the checkpoints that require this mod, open the menu, and click the corresponding button to mark the checkpoint as *Hint*, *2 Orb*, or *3 Orb*.  
 A small message will appear on screen showing that the checkpoint has been set to *True*.   
 You are unable to set a single checkpoint to both 3 Orb and 2 Orb. It will default to the last selection.  
 
-## STEP THREE: SAVING DATA
+## Step Three: Saving Data
 1. Press *Esc* and then click the *Open Workshop Inspector* button.  
 2. Select *Global* from the drop down menu in the bottom right corner of the Inspector.  
 
@@ -120,18 +123,19 @@ You are unable to set a single checkpoint to both 3 Orb and 2 Orb. It will defau
     </figure>
 
 
-## STEP FOUR: ENTERING HINT MESSAGES
-**Skip this step if you are not using hints.**
+## Step Four: Entering Hint Messages
+Skip this step if you are not using hints.
+{: .notice--info}
 
 The variable, *Global.hintStringsArray*, contains the text that will appear as a hint.
-1. In the text editor, replace the dummy text with your Hint Messages where appropriate. 
+1. In a text editor, replace the dummy text with your Hint Messages where appropriate. 
 	- *NOTE*: Keep your Hint Message brief! It should not exceed one line.  
 
 	- *NOTE*: any text in a Custom String MUST be placed bewteen quotations: eg. Custom String("[your text here]") will display: [your text here]
 2. *(Optional)* Save the .txt file as Hint Data.txt for safety 
 3. Now, Select All, copy, and paste these updated actions into the "Paste Orb / Hint Data Here" Rule and delete the old *Global.hintStringsArray*.
 
-## STEP FIVE: DISABLING RULES
+## Step Five: Disabling Rules
 1. Disable the Hax Framework rule named *TCD detect*. If this is not done, this mod may not work properly!  
 
     <figure>
@@ -142,16 +146,16 @@ The variable, *Global.hintStringsArray*, contains the text that will appear as a
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒   
 
 
-## STEP SIX: FINISHING UP
+## Step Six: Finishing Up
 1. Restart the lobby.
 2. Save settings.
 
 ---
 
-# TROUBLESHOOTING
+# Troubleshooting
 ### Data Corrupt warning
-1. Enable the SETUP and Data Corrector Rules below.
-2. In the LevelLengths array, add entries containing the amount of checkpoints in each level (in order, and including the deleted level). Leave the first entry as 1.
+1. Enable the SETUP and Data Corrector Rules.
+2. Expand the SETUP rule. In the LevelLengths array, add entries containing the amount of checkpoints in each level (in order, and including the deleted level). Leave the first entry as 1.
 3. Set the deletedLevel variable to the level that was deleted.
 4. Set the dataCorrector variable True.
 5. Restart the lobby, and open the Workshop Inspector.
