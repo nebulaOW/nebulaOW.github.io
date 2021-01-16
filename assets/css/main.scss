@@ -4,9 +4,7 @@
 
 @charset "utf-8";
 $primary-color: #faa916;
-$base05: #faa916;
-$code-background-color: #faa916;
-$code-background-color-dark: #faa916;
+$form-background-color: #efcc90;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
