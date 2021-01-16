@@ -33,21 +33,8 @@ conditions
 
 {%- endcapture -%}
 
-{% include code_snippet.md code=code language='javascript' %}
+{% include code_snippet.md code=code language='' %}
 
-{%- capture code -%}
-
-t = Time.now
-t.succ  
-{%- endcapture -%}
-
-{% include code_snippet.md code=code language='ruby' %}
-```
-conditions
-{
-    Is Dummy Bot(Event Player) == False;
-}
-```
 
 #### Step 2  
 Copy and paste the following code using the yellow button at the top of the editor, above all the rules.
