@@ -32,7 +32,7 @@ conditions
     Is Dummy Bot(Event Player) == False;
 }
 {%- endcapture -%}  
-{% include code.html code=code lang="" %}
+{% include code.html code=code lang="javascript" %}
 
 
 #### Step 2  
