@@ -123,7 +123,7 @@ rule("Mr Destructo Data | Ayutthaya")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Black Forest
 ```
@@ -166,7 +166,7 @@ rule("Mr Destructo Data | Black Forest")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Blizzard World
 ```
@@ -209,7 +209,7 @@ rule("Mr Destructo Data | Blizzard World")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Busan
 ```
@@ -346,7 +346,7 @@ rule("Mr Destructo Data | Busan")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Castillo
 ```
@@ -379,7 +379,7 @@ rule("Mr Destructo Data | Castillo")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Chateau Guillard
 ```
@@ -443,7 +443,7 @@ rule("Mr Destructo Data | Chateau Guillard")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Dorado
 ```
@@ -505,7 +505,7 @@ rule("Mr Destructo Data | Dorado")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Eichenwald
 ```
@@ -564,7 +564,7 @@ rule("Mr Destructo Data | Eichenwald")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Hanamura
 ```
@@ -630,7 +630,7 @@ rule("Mr Destructo Data | Hanamura")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Havana
 ```
@@ -688,7 +688,7 @@ rule("Mr Destructo Data | Havana")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Hollywood
 ```
@@ -740,7 +740,7 @@ rule("Mr Destructo Data | Hollywood")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Horizon Lunar Colony
 ```
@@ -807,7 +807,7 @@ rule("Mr Destructo Data | Horizon Lunar Colony")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Ilios
 ```
@@ -892,7 +892,7 @@ rule("Mr Destructo Data | Ilios")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Junkertown
 ```
@@ -931,7 +931,7 @@ rule("Mr Destructo Data | Junkertown")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Lijiang Tower
 ```
@@ -1102,7 +1102,7 @@ rule("Mr Destructo Data | Lijiang Tower")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Necropolis
 ```
@@ -1131,7 +1131,7 @@ rule("Mr Destructo Data | Necropolis")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Nepal
 ```
@@ -1235,7 +1235,7 @@ rule("Mr Destructo Data | Nepal")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Numbani
 ```
@@ -1351,7 +1351,7 @@ rule("Mr Destructo Data | Numbani")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Oasis
 ```
@@ -1408,7 +1408,7 @@ rule("Mr Destructo Data | Oasis")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Paris
 ```
@@ -1477,7 +1477,7 @@ rule("Mr Destructo Data | Paris")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Rialto
 ```
@@ -1576,7 +1576,7 @@ rule("Mr Destructo Data | Rialto")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Route 66
 ```
@@ -1625,7 +1625,7 @@ rule("Mr Destructo Data | Route 66")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Temple of Anubis
 ```
@@ -1685,7 +1685,7 @@ rule("Mr Destructo Data | Temple of Anubis")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Volskaya Industries
 ```
@@ -1757,7 +1757,7 @@ rule("Mr Destructo Data | Volskaya Industries")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Watchpoint: Gibraltar
 ```
@@ -1800,7 +1800,7 @@ rule("Mr Destructo Data | Watchpoint: Gibraltar")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
 ### Empty Map (For future maps)
 ```
@@ -1820,5 +1820,5 @@ rule("Mr Destructo Data | Empty Map")
 	}
 }
 ```
-[Return to map list](#step-3)
+
 
