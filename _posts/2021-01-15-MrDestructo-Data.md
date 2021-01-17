@@ -29,7 +29,6 @@ This condition allows Mr. Destructo to do his work without getting teleported ba
     Is Dummy Bot(Event Player) == False;
 }{%- endcapture -%}
 
-{% include code_snippet.md code=code language='' %}
 
 
 #### Step 2  
