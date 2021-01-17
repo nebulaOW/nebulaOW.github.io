@@ -25,7 +25,7 @@ Paste the entire condition statement below to the Hax Framework rule named *Play
 Be sure to copy from the word *conditions* to the closing curly brace *}*.  
 This condition allows Mr. Destructo to do his work without getting teleported back to Level Select.\
   
-  
+   
 
 {%- capture code -%}conditions
 {
