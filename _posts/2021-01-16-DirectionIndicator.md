@@ -16,8 +16,7 @@ There will be a disabled condition that you can modify.
 Be sure to enable that condition and disable the *Spray* condition above it.  
 
 
-```
-variables
+{% capture code %}{% raw %}variables
 {
 	player:
 		100: directionString
@@ -144,5 +143,5 @@ rule("Check for space ---------------------------------- WASD / Space Indicators
 		Wait Until(!Is Button Held(Event Player, Button(Jump)), 99999);
 		Event Player.jumpIndicator = Custom String("             ");
 	}
-}
-```
+}{% endraw %}{% endcapture %}  
+{% include code.html code=code %}
