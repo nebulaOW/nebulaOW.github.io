@@ -25,7 +25,8 @@ Variables and subroutines in the workshop are numbered, check that the NEW varia
 </div>
 
 ## Reference for New Variables & Subroutines:
-{% capture code %}{% raw %}variables
+```
+variables
 {
 	global:
 		123: tempIterator
@@ -52,8 +53,8 @@ subroutines
 {
 	126: DisableControls
 	127: EnableControls
-}{% endraw %}{% endcapture %}  
-{% include code.html code=code %}
+}
+```
 
 ---
 
