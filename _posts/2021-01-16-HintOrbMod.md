@@ -240,7 +240,9 @@ rule("Global Variables Initilization ------------------------ Hint / Force Orb O
 {
 	event
 	{
-		Ongoing - Global;
+		Ongoing - Each Player;
+		All;
+		All;
 	}
 
 	actions
@@ -248,6 +250,8 @@ rule("Global Variables Initilization ------------------------ Hint / Force Orb O
 		Global.menuItems = Array(Custom String("Synchronize"), Custom String("Add Hint"), Custom String("Add 2 Orb"), Custom String(
 			"Add 3 Orb"), Custom String("Remove Hint"), Custom String("Remove 2 Orb"), Custom String("Remove 3 Orb"));
 		Global.menuTextCollector = Array();
+		Create HUD Text(Event Player, Custom String("use spray to open/close the menu"), Null, Null, Right, 0, Color(Blue), Color(White),
+			Color(White), Visible To and String, Default Visibility);
 	}
 }
 
