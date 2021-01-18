@@ -25,8 +25,7 @@ Variables and subroutines in the workshop are numbered, check that the NEW varia
 </div>
 
 ## Reference for New Variables & Subroutines:
-```
-variables
+{% capture code %}{% raw %}variables
 {
 	global:
 		123: tempIterator
@@ -53,8 +52,8 @@ subroutines
 {
 	126: DisableControls
 	127: EnableControls
-}
-```
+}{% endraw %}{% endcapture %}  
+{% include code.html code=code %}
 
 ---
 
@@ -166,8 +165,7 @@ The variable, *Global.hintStringsArray*, contains the text that will appear as a
 ---
 
 # HAVVX Orb Numbers
-```
-rule("Order Text For HAVVX -------------------------- Force Orb Order Mod")
+{% capture code %}{% raw %}rule("Order Text For HAVVX -------------------------- Force Orb Order Mod")
 {
 	event
 	{
@@ -190,12 +188,11 @@ rule("Order Text For HAVVX -------------------------- Force Orb Order Mod")
 				Global.TCD3pos[Event Player.Checkpoint] + Vector(0,.5,0), 
 				1.5, Clip Against Surfaces, Visible To Position and String, Color(Red), Default Visibility);
 	}
-}
-```
+}{% endraw %}{% endcapture %}  
+{% include code.html code=code %}
 
 # Hints & Force Orb Order Mod
-```
-variables
+{% capture code %}{% raw %}variables
 {
 	global:
 		123: tempIterator
@@ -846,5 +843,5 @@ rule("Paste Orb / Hint Data Here ----------------------- Hint / Force Orb Order 
 	{
 		Ongoing - Global;
 	}
-}
-```
+}{% endraw %}{% endcapture %}  
+{% include code.html code=code %}
