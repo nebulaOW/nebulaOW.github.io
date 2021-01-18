@@ -36,8 +36,7 @@ This condition allows Mr. Destructo to do his work without getting teleported ba
 #### Step 2  
 Copy and paste the following code using the yellow button at the top of the editor, above all the rules.
 This is the code that makes MrDestructo run. Be sure to add the data in step 3!  
-```
-variables
+{% capture code %}{% raw %}variables
 {
 	global:
 		105: MrDestructoVector
@@ -81,8 +80,8 @@ rule("Subroutine: MrDestructo | Created by Janni")
 		Global.i = Global.i + 1;
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 #### Step 3  
 Copy the contents of the applicable map below using the same yellow button in step 2.  
@@ -90,8 +89,7 @@ Copy the contents of the applicable map below using the same yellow button in st
   
 
 ### Ayutthaya
-```
-rule("Mr Destructo Data | Ayutthaya")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Ayutthaya")
 {
 	event
 	{
@@ -119,13 +117,12 @@ rule("Mr Destructo Data | Ayutthaya")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Black Forest
-```
-rule("Mr Destructo Data | Black Forest")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Black Forest")
 {
 	event
 	{
@@ -162,13 +159,12 @@ rule("Mr Destructo Data | Black Forest")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Blizzard World
-```
-rule("Mr Destructo Data | Blizzard World")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Blizzard World")
 {
 	event
 	{
@@ -205,13 +201,12 @@ rule("Mr Destructo Data | Blizzard World")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Busan
-```
-rule("Mr Destructo Data | Busan")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Busan")
 {
 	event
 	{
@@ -342,13 +337,12 @@ rule("Mr Destructo Data | Busan")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Castillo
-```
-rule("Mr Destructo Data | Castillo")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Castillo")
 {
 	event
 	{
@@ -375,13 +369,12 @@ rule("Mr Destructo Data | Castillo")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Chateau Guillard
-```
-rule("Mr Destructo Data | Chateau Guillard")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Chateau Guillard")
 {
 	event
 	{
@@ -439,13 +432,12 @@ rule("Mr Destructo Data | Chateau Guillard")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Dorado
-```
-rule("Mr Destructo Data | Dorado")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Dorado")
 {
 	event
 	{
@@ -501,13 +493,12 @@ rule("Mr Destructo Data | Dorado")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Eichenwald
-```
-rule("Mr Destructo Data | Eichenwald")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Eichenwald")
 {
 	event
 	{
@@ -560,13 +551,12 @@ rule("Mr Destructo Data | Eichenwald")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Hanamura
-```
-rule("Mr Destructo Data | Hanamura")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Hanamura")
 {
 	event
 	{
@@ -626,13 +616,12 @@ rule("Mr Destructo Data | Hanamura")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Havana
-```
-rule("Mr Destructo Data | Havana")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Havana")
 {
 	event
 	{
@@ -684,13 +673,12 @@ rule("Mr Destructo Data | Havana")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Hollywood
-```
-rule("Mr Destructo Data | Hollywood")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Hollywood")
 {
 	event
 	{
@@ -736,13 +724,12 @@ rule("Mr Destructo Data | Hollywood")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Horizon Lunar Colony
-```
-rule("Mr Destructo Data | Horizon Lunar Colony")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Horizon Lunar Colony")
 {
 	event
 	{
@@ -803,13 +790,12 @@ rule("Mr Destructo Data | Horizon Lunar Colony")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Ilios
-```
-rule("Mr Destructo Data | Ilios")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Ilios")
 {
 	event
 	{
@@ -888,13 +874,12 @@ rule("Mr Destructo Data | Ilios")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Junkertown
-```
-rule("Mr Destructo Data | Junkertown")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Junkertown")
 {
 	event
 	{
@@ -927,13 +912,12 @@ rule("Mr Destructo Data | Junkertown")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Lijiang Tower
-```
-rule("Mr Destructo Data | Lijiang Tower")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Lijiang Tower")
 {
 	event
 	{
@@ -1098,13 +1082,12 @@ rule("Mr Destructo Data | Lijiang Tower")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Necropolis
-```
-rule("Mr Destructo Data | Necropolis")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Necropolis")
 {
 	event
 	{
@@ -1127,13 +1110,12 @@ rule("Mr Destructo Data | Necropolis")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Nepal
-```
-rule("Mr Destructo Data | Nepal")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Nepal")
 {
 	event
 	{
@@ -1231,13 +1213,12 @@ rule("Mr Destructo Data | Nepal")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Numbani
-```
-rule("Mr Destructo Data | Numbani")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Numbani")
 {
 	event
 	{
@@ -1347,13 +1328,12 @@ rule("Mr Destructo Data | Numbani")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Oasis
-```
-rule("Mr Destructo Data | Oasis")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Oasis")
 {
 	event
 	{
@@ -1404,13 +1384,12 @@ rule("Mr Destructo Data | Oasis")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Paris
-```
-rule("Mr Destructo Data | Paris")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Paris")
 {
 	event
 	{
@@ -1473,13 +1452,12 @@ rule("Mr Destructo Data | Paris")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Rialto
-```
-rule("Mr Destructo Data | Rialto")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Rialto")
 {
 	event
 	{
@@ -1572,13 +1550,12 @@ rule("Mr Destructo Data | Rialto")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Route 66
-```
-rule("Mr Destructo Data | Route 66")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Route 66")
 {
 	event
 	{
@@ -1621,13 +1598,12 @@ rule("Mr Destructo Data | Route 66")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Temple of Anubis
-```
-rule("Mr Destructo Data | Temple of Anubis")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Temple of Anubis")
 {
 	event
 	{
@@ -1681,13 +1657,12 @@ rule("Mr Destructo Data | Temple of Anubis")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Volskaya Industries
-```
-rule("Mr Destructo Data | Volskaya Industries")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Volskaya Industries")
 {
 	event
 	{
@@ -1753,13 +1728,12 @@ rule("Mr Destructo Data | Volskaya Industries")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Watchpoint: Gibraltar
-```
-rule("Mr Destructo Data | Watchpoint: Gibraltar")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Watchpoint: Gibraltar")
 {
 	event
 	{
@@ -1796,13 +1770,12 @@ rule("Mr Destructo Data | Watchpoint: Gibraltar")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
 ### Empty Map (For future maps)
-```
-rule("Mr Destructo Data | Empty Map")
+{% capture code %}{% raw %}rule("Mr Destructo Data | Empty Map")
 {
 	event
 	{
@@ -1816,7 +1789,7 @@ rule("Mr Destructo Data | Empty Map")
 		Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
-}
-```
+}{% endraw %}{% endcapture %}
+{% include code.html code=code %}
 
 
