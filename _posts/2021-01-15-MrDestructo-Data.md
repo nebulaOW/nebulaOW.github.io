@@ -251,7 +251,9 @@ Copy the contents of the applicable map below using the same yellow button in st
 		130.490), Vector(-103.540, 5.833, 129.818), Vector(-115.412, 4.750, 128.410), Vector(-116.011, 6.267, 127.536), Vector(
 		-129.528, -2.253, 126.226), Vector(-129.794, -2.246, 125.445), Vector(-130.051, 11.092, 115.894), Vector(-130.142, 8.395,
 		118.748), Vector(-117.793, -0.253, 100.843), Vector(-117.727, -0.253, 100.811), Vector(-115.233, 6.068, 102.357), Vector(
-		-115.185, 6.333, 101.755), Vector(-128.965, 1.750, 91.593), Vector(-128.875, 1.750, 91.196));
+		-115.185, 6.333, 101.755), Vector(-128.965, 1.750, 91.593), Vector(-128.875, 1.750, 91.196), Vector(-123.170, 1.750, 95.744), Vector(-124.915, 1.750, 95.310), Vector(-129.333, 1.750,
+		98.883), Vector(-130.961, 1.751, 98.771), Vector(-24.960, -3.883, 3.450), Vector(-26.631, -2.990, 3.368), Vector(-28.447,
+		-2.078, 3.357), Vector(-29.787, -2, 2.510), Vector(-29.781, -1.996, 0.057), Vector(-29.768, -1.981, -2.213));
 			Modify Global Variable(MrDestructoVector, Append To Array, 9999);
 		Call Subroutine(MrDestructo);
 	}
